@@ -125,6 +125,52 @@ html {
   position: relative;
 }
 
+.about .row-2{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.4rem;
+}
+
+.about .row-2 .container-3{
+  width: 100%;
+  margin-left: 25rem;
+}
+
+.about .row-2 .container-3 h1{
+  font-size: 4.5rem;
+  color: #FFDE59;
+  letter-spacing: 0.5rem;
+}
+
+.about .row-2 .container-4{
+  width: 100%;
+  margin-left: 25rem;
+  margin-top: 2rem;
+}
+
+.about .row-2 .container-4 p{
+  width: 40%;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.about .row-2 .container-5{
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .row-2 .container-5 img{
+  width: 60rem;
+}
+
+
+
+
 
 
 
