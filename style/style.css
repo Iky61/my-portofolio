@@ -111,6 +111,17 @@ html {
   color: black;
 }
 
+.hero .hero_cols .sumary .medsos{
+  display: flex;
+  text-decoration: none;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.hero .hero_cols .sumary .medsos a{
+  color: rgb(241, 241, 188);
+}
+
 .hero .hero_cols .picture {
   width: 100%;
 }
