@@ -143,17 +143,24 @@ html {
   padding-right: 1rem;
 }
 
-.about .container_about .slide_left h1{
+.about .container_about .slide_left h1 {
   font-size: 3rem;
+  color: rgb(241, 241, 188);
 }
 
-.about .container_about .slide_left .education p{
+.about .container_about .slide_left .education p {
   padding-top: 0.5rem;
 }
 
-.about .container_about .slide_left .education .gpa{
+.about .container_about .slide_left .education .gpa {
   display: flex;
   justify-content: space-between;
+}
+
+.about .container_about .slide_left .education .gpa1 {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(241, 241, 188);
 }
 
 .about .container_about .slide_right {
@@ -165,24 +172,21 @@ html {
   padding-right: 2rem;
 }
 
-.about .container_about .slide_right h1{
+.about .container_about .slide_right h1 {
   font-size: 3rem;
+  color: rgb(241, 241, 188);
 }
 
-.about .container_about .slide_right .skils{
+.about .container_about .slide_right .skils {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-} 
+}
 
-.about .container_about .slide_right .skils .gpa{
+.about .container_about .slide_right .skils .gpa {
   display: flex;
   justify-content: space-between;
 }
-
-
-
-
 
 /* Experience Section */
 .experience {
@@ -232,6 +236,10 @@ html {
   gap: 1rem;
 }
 
+.projects .container-3 h1 {
+  color: rgb(241, 241, 188);
+}
+
 .projects .container-4 {
   padding-top: 2rem;
   width: 100%;
@@ -249,6 +257,7 @@ html {
   flex-direction: column;
   width: 100%;
   gap: 0.7rem;
+  transition: 2s;
 }
 
 .projects .container-4 .row .project img {
