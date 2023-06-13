@@ -70,7 +70,7 @@ html {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 10rem 3rem 0 4rem;
+  justify-content: center;
   gap: 0.4rem;
 }
 
@@ -123,12 +123,13 @@ html {
 }
 
 .hero .hero_cols .picture {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
 .hero .hero_cols .picture img {
   width: 75%;
-  margin-left: 5rem;
 }
 
 /* About Section */
@@ -308,6 +309,11 @@ html {
 @media (max-width: 758px) {
   html {
     font-size: 62.5%;
+  }
+
+  .hero { 
+    display: flex;
+    align-items: center;
     padding: 0;
     margin: 0;
   }
@@ -321,8 +327,9 @@ html {
   .hero .hero_cols .sumary {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
     width: 100%;
-    padding: 10rem 3rem 0 4rem;
     gap: 0.4rem;
   }
 
@@ -381,6 +388,6 @@ html {
   }
 
   .hero .hero_cols .picture img {
-    width: 40%;
+    width: 60%;
   }
 }
