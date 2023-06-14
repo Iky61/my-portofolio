@@ -134,15 +134,14 @@ html {
 
 /* About Section */
 .about {
-  margin-top: 5rem;
   height: 100vh;
   background-color: rgb(19, 19, 19);
 }
 
 .about .container_about {
   display: flex;
+  align-items: center;
   height: 100%;
-  padding-top: 12rem;
   padding-left: 2rem;
   width: 100%;
 }
@@ -177,11 +176,9 @@ html {
 
 .about .container_about .slide_right {
   display: flex;
-  width: 100%;
+  width: 40%;
   flex-direction: column;
   gap: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .about .container_about .slide_right h1 {
@@ -203,7 +200,7 @@ html {
 /* Experience Section */
 .experience {
   display: flex;
-  padding-top: 7rem;
+  align-items: center;
   padding-left: 5rem;
   height: 100vh;
 }
@@ -212,7 +209,6 @@ html {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  margin-top: 5rem;
   width: 100%;
 }
 
@@ -224,7 +220,6 @@ html {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 5rem;
 }
 
 .experience .container-2 img {
@@ -234,66 +229,51 @@ html {
 
 /* Projects Section */
 .projects {
-  display: flex;
-  flex-direction: column;
-  padding-top: 6rem;
-  background-color: rgb(19, 19, 19);
-}
-
-.projects .container-3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  gap: 1rem;
-}
-
-.projects .container-3 h1 {
-  color: rgb(241, 241, 188);
-  font-size: 3rem;
-}
-
-.projects .container-4 {
-  padding-top: 1.5rem;
-  width: 100%;
   height: 100vh;
-}
-
-.projects .container-4 .row {
-  display: flex;
-  height: 20rem;
-}
-
-.projects .container-4 .row .project {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  width: 100%;
-  gap: 0.7rem;
-  transition: 2s;
+  padding-top: 7rem;
+  justify-content: space-around;
+  background-color: black;
 }
 
-.projects .container-4 .row .project img {
-  width: 50%;
+.projects .row-projects {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.projects .row-projects .project a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  gap: 1rem;
+  color: white;
+}
+
+.projects .row-projects .project img {
+  width: 20rem;
   border-radius: 0.5rem;
 }
 
-.projects .container-4 .row .project h4 {
+.projects .row-projects .project h4 {
+  max-width: 16rem;
+  font-size: 1.2rem;
   color: rgb(241, 241, 188);
+  text-align: center;
 }
 
-.projects .container-4 .row .project a {
-  text-decoration: none;
-  color: white;
-  font-style: italic;
-  font-size: 0.7rem;
+.spacing {
+  background-color: black;
+  height: 3rem;
 }
 
 /* Contact Section */
 .contact {
   display: flex;
-  padding-top: 7rem;
-  margin-left: 6rem;
   height: 100vh;
 }
 
@@ -308,7 +288,7 @@ html {
 /* Tablet & Phone*/
 @media (max-width: 758px) {
   html {
-    font-size: 70%;
+    font-size: 60%;
   }
 
   .hero {
@@ -391,13 +371,82 @@ html {
     width: 80%;
   }
 
+  /* About Section */
+  .about {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+  }
+
+  .about .container_about {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 4rem;
+    height: 100%;
+    padding-left: 2rem;
+    width: 100%;
+  }
+
+  .about .container_about .slide_left {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .about .container_about .slide_left h1 {
+    font-size: 3rem;
+    color: rgb(241, 241, 188);
+  }
+
+  .about .container_about .slide_left .education p {
+    padding-top: 0.5rem;
+  }
+
+  .about .container_about .slide_left .education .gpa {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about .container_about .slide_left .education .gpa1 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(241, 241, 188);
+  }
+
+  .about .container_about .slide_right {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .about .container_about .slide_right h1 {
+    font-size: 3rem;
+    color: rgb(241, 241, 188);
+  }
+
+  .about .container_about .slide_right .skils {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about .container_about .slide_right .skils .gpa {
+    display: flex;
+    justify-content: space-between;
+  }
+
   /* Experience Section */
   .experience {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 9rem;
+    justify-content: center;
     padding-right: 5rem;
     height: 100vh;
+    gap: 4rem;
     padding-bottom: 2rem;
   }
 
@@ -405,7 +454,6 @@ html {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    margin-top: 5rem;
     width: 100%;
   }
 
@@ -417,7 +465,6 @@ html {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 5rem;
   }
 
   .experience .container-2 img {
