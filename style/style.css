@@ -229,10 +229,8 @@ html {
 
 /* Projects Section */
 .projects {
-  height: 100vh;
   display: flex;
-  align-items: center;
-  /* padding-top: 7rem; */
+  padding-top: 7rem;
   justify-content: space-around;
   background-color: black;
 }
