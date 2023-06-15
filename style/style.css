@@ -232,7 +232,7 @@ html {
   height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 7rem;
+  /* padding-top: 7rem; */
   justify-content: space-around;
   background-color: black;
 }
@@ -242,7 +242,7 @@ html {
   justify-content: space-around;
   max-width: 80%;
   flex-wrap: wrap;
-  gap: 6rem;
+  gap: 3rem;
 }
 
 .projects .row-projects .project a {
@@ -255,20 +255,19 @@ html {
 }
 
 .projects .row-projects .project img {
-  width: 20rem;
+  width: 24rem;
   border-radius: 0.5rem;
 }
 
 .projects .row-projects .project h4 {
-  max-width: 16rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: rgb(241, 241, 188);
   text-align: center;
 }
 
 .spacing {
   background-color: black;
-  height: 3rem;
+  height: 4rem;
 }
 
 /* Contact Section */
@@ -288,7 +287,7 @@ html {
 /* Tablet & Phone*/
 @media (max-width: 758px) {
   html {
-    font-size: 60%;
+    font-size: 65%;
   }
 
   .hero {
