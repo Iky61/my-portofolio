@@ -159,7 +159,7 @@ html {
   color: rgb(241, 241, 188);
 }
 
-.about .container_about .slide_left .education a{
+.about .container_about .slide_left .education a {
   color: #ffffff;
 }
 
@@ -236,7 +236,7 @@ html {
   display: flex;
   height: 100vh;
   width: 100%;
-  padding: 7rem 5rem 0 5rem;
+  padding: 7rem 2rem 0 2rem;
   justify-content: space-around;
   background-color: rgb(19, 19, 19);
 }
@@ -290,13 +290,13 @@ html {
   text-align: center;
 }
 
-.contact .container-form{
+.contact .container-form {
   display: flex;
   align-items: start;
   flex-direction: column;
 }
 
-.contact .container-form-1{
+.contact .container-form-1 {
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -328,7 +328,7 @@ html {
 /* Tablet & Phone*/
 @media (max-width: 758px) {
   html {
-    font-size: 65%;
+    font-size: 55%;
   }
 
   .hero {
