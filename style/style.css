@@ -42,7 +42,7 @@ html {
 
 .nav-1 .navbar-nav {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .nav-1 .navbar-nav a {
@@ -234,16 +234,18 @@ html {
 /* Projects Section */
 .projects {
   display: flex;
-  padding-top: 7rem;
+  height: 100vh;
+  width: 100%;
+  padding: 7rem 5rem 0 5rem;
   justify-content: space-around;
   background-color: rgb(19, 19, 19);
 }
 
 .projects .row-projects {
   display: flex;
-  justify-content: space-around;
-  max-width: 80%;
-  flex-wrap: wrap;
+  width: 100%;
+  overflow: scroll;
+  align-items: center;
   gap: 3rem;
 }
 
@@ -257,7 +259,7 @@ html {
 }
 
 .projects .row-projects .project img {
-  width: 24rem;
+  width: 38rem;
   border-radius: 0.5rem;
 }
 
